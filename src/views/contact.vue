@@ -10,11 +10,12 @@
       </v-col>
       <v-col cols="12" lg="4" md="4" sm="6" xl="4" :order="$vuetify.breakpoint.xs ? 'first' : 'last'">
         <v-card class="" height="450">
-          <v-card-title align="center"> Meet Us </v-card-title>
+          <v-card-title> Meet Us </v-card-title>
           <v-divider></v-divider>
           <v-card-text class="text-center black--text">Address</v-card-text>
-          <v-card-text class="px-16 text-center py-0"> RR Mapping  6/9, Vayalur Road,  Uyya Kondan Thirumalai  Tirchy,</v-card-text>
-          <v-card-text class="px-16 text-center py-0">India - 620 102.</v-card-text>
+          <v-card-text class=" text-center py-0">RR Mapping</v-card-text>
+          <v-card-text class=" text-center py-0"> 6/9, Vayalur Road,  Uyya Kondan Thirumalai  Tirchy,</v-card-text>
+          <v-card-text class=" text-center pt-0 pb-5">India - 620 102.</v-card-text>
           <v-divider></v-divider>
           <v-card-text class="black--text text-center">Contact Number</v-card-text>
           <v-card-text class="text-center pt-0"> +91 78119 52461 <br></v-card-text>

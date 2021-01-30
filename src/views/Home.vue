@@ -1,10 +1,7 @@
 <template>
   <div class="pa-0">
-    <v-carousel hide-delimiters height="400" interval="300">
-      <v-carousel-item v-for="(item,i) in items" :key="i" :src="item.src" reverse-transition="fade-transition" transition="fade-transition">
-        <!-- <v-row class="fill-height" align="center" justify="center">
-          <div class="display-3 black--text"> Slide {{ i + 1 }}</div>
-        </v-row> -->
+    <v-carousel hide-delimiters height="400">
+      <v-carousel-item v-for="(item,i) in items" :key="i" :src="item.src"  interval="3000" reverse-transition="fade-transition" transition="fade-transition">
       </v-carousel-item>
     </v-carousel>
     <div>
@@ -56,18 +53,18 @@
         <v-card width="100%" v-if="index%2 === 0">
           <v-row>
             <v-col cols="12" sm="6" lg="6" md="6" xl="5" >
-              <v-img :src="i.src" height="200"></v-img>
+              <v-img :src="i.src" height="330"></v-img>
               </v-col>
               <v-col cols="12" sm="6" lg="6" xl="7" md="6">
                 <v-card-title class="text-centered black--text">{{i.title}}</v-card-title>
-                <li v-for="(x, index) in i.options" :key="index" class="py-2 px-3">{{x}}</li>
+                <li v-for="(x, index) in i.options" :key="index" class="py-2 px-3 mx-auto">{{x}}</li>
               </v-col>
           </v-row>
         </v-card>
          <v-card width="100%" v-else color="blue-grey lighten-5">
           <v-row>
             <v-col cols="12" sm="6" lg="6" md="6" xl="5" :order="$vuetify.breakpoint.xs ? 'first' : 'last'">
-              <v-img :src="i.src" height="200" ></v-img>
+              <v-img :src="i.src" height="330" ></v-img>
             </v-col>
             <v-col cols="12" sm="6" lg="6" xl="7">
                 <v-card-title class="text-centered black--text">{{i.title}}</v-card-title>
@@ -97,7 +94,10 @@
           {src: require('@/assets/images/bg11.jpg',)},
           {src: require('@/assets/images/bg12.jpg',)},
           {src: require('@/assets/images/bg13.jpg',)},
+          {src: require('@/assets/images/bg14.jpg',)},
           {src: require('@/assets/images/bg15.jpg',)},
+          {src: require('@/assets/images/bg16.jpg',)},
+          {src: require('@/assets/images/bg20.jpg',)},
         ],
         whatwedo:[
         {title:'Photogrammetry Services',src:require('@/assets/images/Photogrammetry.jpg'), options:['Aerial Triangulation','Digital Terrain Modelling/Digital Surface Modelling','Planimetric mapping - Small/Medium/Large Scale','3D City modelling / Facade-roof texturing']},

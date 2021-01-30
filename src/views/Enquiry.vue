@@ -1,9 +1,9 @@
 <template>
   <div style="backgroundColor: #E0E0E0">
      <v-card color="grey lighten-3 py-8" elevation="0">
-        <h1 class="text-center pt-5">JOIN WITH US</h1>
+        <h1 class="text-center pt-5">TO GET BETTER OFFER</h1>
      </v-card>
-    <v-row>
+    <v-row class="py-5">
       <v-col cols="12" lg="6" xl="6" md="6" sm="4" v-if="$vuetify.breakpoint.smAndDown" class="mx-0">
         <v-img src="@/assets/images/enquirry.jpg"  height="450" ></v-img>
       </v-col>
