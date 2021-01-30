@@ -40,14 +40,14 @@
     <v-card flat tile class="grey darken-3 white--text text-center col-12">      
      <v-row>
          <v-col cols="12" lg="4" xl="4" md="4" sm="12" >
-        <v-card>
+        <v-card height="100%">
           <v-card-title>About RR Mapping</v-card-title>
           <v-card-text> RR Mapping <br> 6/9, Vayalur Road, <br> Uyya Kondan Thirumalai <br> Tirchy <br> India - 620 102. <br>
           </v-card-text>
         </v-card>
       </v-col>
       <v-col cols="12" lg="4" xl="4" md="4" sm="12">
-         <v-card>
+         <v-card height="100%">
           <v-card-title>About RR Mapping</v-card-title>
           <v-card-text>
             RR Mapping is one of the Fast growing and experienced full service geospatial solutions company in Trichy cosmopolitan city, India. We have a long tradition of consistent performance and enduring client relationships built on over along to quality service. No job is too small or large, we provide our services to independent geomatics companies, government bodies and transport authorities.
@@ -55,8 +55,8 @@
         </v-card>
       </v-col>
       <v-col cols="12" lg="4" xl="4" md="4" sm="12">
-         <v-card>
-          <v-card-title class="text-centered"><v-icon>mdi-twitter</v-icon></v-card-title>
+         <v-card height="100%">
+          <v-card-title ><v-icon>mdi-twitter</v-icon></v-card-title>
           <v-card-text>
             RR Mapping has the experience, Technical resources, and worldwide capacity to enable excellent performance on any geospatial projrcts. <a href="#">www.twitter.com</a> Nov 7, 2014
           </v-card-text>

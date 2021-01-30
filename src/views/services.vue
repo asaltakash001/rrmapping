@@ -1,23 +1,22 @@
 <template>
   <div>
-    <v-card>
-      <v-card-title >Our Services</v-card-title>
-      <p class="px-9 text-justify">
+    <v-card class="py-15" elevation="0">
+      <h1 class="text-center" style="{font-family: 'Lucida Console', 'Courier New', monospace;}">OUR SERVICES</h1>
+      <v-row>
+        <v-col cols="8" class="mx-auto pb-10"><v-divider></v-divider></v-col>
+      </v-row>
+      <p class="px-16 text-justify">
         RR Mapping has provided photogrammetric solutions with technically skilled team in Trichy & across World. A lot of changes have occurred since this time and we have been a key driver of new technology. Our derived products go through a barrage of quality control procedures designed to ensure a good product. All Photogrammetry services are performed using the most advanced softcopy workstations operating the latest proven software tools.
       </p>
     </v-card>
     <v-row class="mx-5">
-      <v-col v-for="(i, index) in services" :key="index" class="" cols="12" lg="4" md="4" sm="12" xl="3">
-        <v-card min-height="400" class="">
+      <v-col v-for="(i, index) in services" :key="index" class="mx-0 px-15" cols="12" lg="4" md="4" sm="12" xl="3">
+        <v-card min-height="400" class="" height="100%" hover>
           <v-img height="150" :src="i.src"></v-img>
           <v-card-title class="title">{{i.title}}</v-card-title>
           <v-card-text>
             <li v-for="(x, index) in i.options" :key="index" class="py-2">{{x}}</li>
           </v-card-text>
-          <v-spacer></v-spacer>
-          <v-card-actions >
-            <v-btn>More Info</v-btn>
-          </v-card-actions>
         </v-card>
       </v-col>
     </v-row>
