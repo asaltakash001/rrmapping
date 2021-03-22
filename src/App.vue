@@ -42,7 +42,7 @@
          <v-col cols="12" lg="4" xl="4" md="4" sm="12" >
           <v-card-text class="text-center title">Meet Us At</v-card-text>
           <v-divider></v-divider>
-          <v-card-text> RR Mapping <br> 6/9, Vayalur Road, Uyya Kondan Thirumalai <br> Tirchy, India - 620 102. <br>
+          <v-card-text> RR Mapping <br> 6/9, Vayalur Road, Uyya Kondan Thirumalai <br> Tirchy, India - 620 102.<br>
           </v-card-text>
       </v-col>
       <v-col cols="12" lg="4" xl="4" md="4" sm="12">
