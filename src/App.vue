@@ -2,14 +2,14 @@
   <v-app light>
     <div >
       <nav>
-      <v-toolbar id="navbar" >
+      <v-toolbar id="navbar" style="backgroundColor: #002749" class="white--text">
           <v-toolbar-title>
             <v-img src="'@/assets/images/logo.png'"></v-img>
             <span class="font-weight-light pr-3">RR Mapping </span>
           </v-toolbar-title>
           <v-spacer></v-spacer>
           <div v-if="!$vuetify.breakpoint.smAndDown"> 
-            <v-btn text v-for="(item, i) in items" :key="i" :to="item.link"> {{item.text}}</v-btn>
+            <v-btn text v-for="(item, i) in items" :key="i" :to="item.link" class="white--text"> {{item.text}}</v-btn>
           </div>
           <v-app-bar-nav-icon @click="side= !side" v-if="$vuetify.breakpoint.smAndDown"></v-app-bar-nav-icon>
       </v-toolbar>
@@ -37,31 +37,25 @@
       </v-container>
     </v-main>
     <v-footer dark padless>
-    <v-card flat tile class="grey darken-3 white--text text-center col-12">      
+    <v-card flat tile class="white--text text-center col-12" style="backgroundColor: #002749">      
      <v-row>
          <v-col cols="12" lg="4" xl="4" md="4" sm="12" >
-        <v-card height="100%" hover>
-          <v-card-title >Meet Us At</v-card-title>
+          <v-card-text class="text-center title">Meet Us At</v-card-text>
           <v-divider></v-divider>
           <v-card-text> RR Mapping <br> 6/9, Vayalur Road, Uyya Kondan Thirumalai <br> Tirchy, India - 620 102. <br>
           </v-card-text>
-        </v-card>
       </v-col>
       <v-col cols="12" lg="4" xl="4" md="4" sm="12">
-         <v-card height="100%" hover>
           <v-card-title>About RR Mapping</v-card-title>
           <v-card-text class="text-justify">
             RR Mapping is one of the Fast growing and experienced full service geospatial solutions company in Trichy cosmopolitan city, India. We have a long tradition of consistent performance and enduring client relationships built on over along to quality service. No job is too small or large, we provide our services to independent geomatics companies, government bodies and transport authorities.
           </v-card-text>
-        </v-card>
       </v-col>
       <v-col cols="12" lg="4" xl="4" md="4" sm="12">
-         <v-card height="100%" hover>
           <v-card-text class="text-center "><v-icon large>mdi-twitter</v-icon></v-card-text>
           <v-card-text class="text-justify">
             RR Mapping has the experience, Technical resources, and worldwide capacity to enable excellent performance on any geospatial projrcts. <a href="#">www.twitter.com</a> Nov 7, 2014
           </v-card-text>
-        </v-card>
       </v-col>
       </v-row>
       <v-divider></v-divider>

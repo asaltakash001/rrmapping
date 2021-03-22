@@ -52,8 +52,8 @@
       <v-row v-for="(i,index) in whatwedo" :key="index">
         <v-card width="100%" v-if="index%2 === 0">
           <v-row>
-            <v-col cols="12" sm="6" lg="6" md="6" xl="5" >
-              <v-img :src="i.src" height="330"></v-img>
+            <v-col cols="12" sm="6" lg="6" md="6" xl="5" class="my-auto">
+              <v-img :src="i.src" height="200" width="400" class="my-auto" ></v-img>
               </v-col>
               <v-col cols="12" sm="6" lg="6" xl="7" md="6">
                 <v-card-title class="text-centered black--text">{{i.title}}</v-card-title>
@@ -63,8 +63,8 @@
         </v-card>
          <v-card width="100%" v-else color="blue-grey lighten-5">
           <v-row>
-            <v-col cols="12" sm="6" lg="6" md="6" xl="5" :order="$vuetify.breakpoint.xs ? 'first' : 'last'">
-              <v-img :src="i.src" height="330" ></v-img>
+            <v-col cols="12" sm="6" lg="6" md="6" xl="5" :order="$vuetify.breakpoint.xs ? 'first' : 'last'" class="my-auto">
+              <v-img :src="i.src" height="200" width="400" class="my-auto" ></v-img>
             </v-col>
             <v-col cols="12" sm="6" lg="6" xl="7">
                 <v-card-title class="text-centered black--text">{{i.title}}</v-card-title>
