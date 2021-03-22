@@ -43,7 +43,7 @@
         <v-card height="100%" hover>
           <v-card-title >Meet Us At</v-card-title>
           <v-divider></v-divider>
-          <v-card-text> RR Mapping <br> 6/9, Vayalur Road, Uyya Kondan Thirumalai <br> Tirchy, India - 620 102. <br>
+          <v-card-text> RR Mapping <br> 6/9, Vayalur Road, Uyya Kondan Thirumalai <br> Tirchy, India - 620 102.<br>
           </v-card-text>
         </v-card>
       </v-col>
